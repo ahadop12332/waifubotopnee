@@ -67,4 +67,4 @@ async def clear_command_ban(context: CallbackContext):
         del user_cooldowns[user_id]
 
 # Add the new command handler for random_daily_reward
-application.add_handler(CommandHandler("daily", random_daily_reward, block=True))
+application.add_handler(CommandHandler("explore", random_daily_reward, block=True))
